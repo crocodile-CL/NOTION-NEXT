@@ -8,7 +8,7 @@ const Style = () => {
   return (<style jsx global>{`
     // 底色
     body{
-        background-color: #f5f5f5
+        background-color: #ebf5fb
     }
     .dark body{
         background-color: black;
@@ -22,7 +22,7 @@ const Style = () => {
     /*  菜单下划线动画 */
     #theme-commerce .menu-link {
         text-decoration: none;
-        background-image: linear-gradient(#D2232A, #D2232A);
+        background-image: linear-gradient(#ebf5fb, #ebf5fb);
         background-repeat: no-repeat;
         background-position: bottom center;
         background-size: 0 2px;
@@ -31,7 +31,7 @@ const Style = () => {
     
     #theme-commerce .menu-link:hover {
         background-size: 100% 2px;
-        color: #D2232A;
+        color: #ebf5fb;
     }
 
     /* 设置了从上到下的渐变黑色 */
@@ -66,12 +66,12 @@ const Style = () => {
     }
 
     ::-webkit-scrollbar-thumb {
-        background-color: #D2232A;
+        background-color: #ebf5fb;
     }
 
     * {
         scrollbar-width:thin;
-        scrollbar-color: #D2232A transparent
+        scrollbar-color: #ebf5fb transparent
     }
     
 
