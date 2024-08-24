@@ -3,7 +3,7 @@ const CONFIG = {
   SIMPLE_LOGO_IMG: '/Logo.webp',
   SIMPLE_TOP_BAR: true, // 显示顶栏
   SIMPLE_TOP_BAR_CONTENT: process.env.NEXT_PUBLIC_THEME_SIMPLE_TOP_TIPS || '',
-  SIMPLE_LOGO_DESCRIPTION: process.env.NEXT_PUBLIC_THEME_SIMPLE_LOGO_DESCRIPTION || '<div>精酿啤酒的小店<br/>/精酿啤酒<br/>/啤酒收藏</div>',
+  SIMPLE_LOGO_DESCRIPTION: process.env.NEXT_PUBLIC_THEME_SIMPLE_LOGO_DESCRIPTION || '<div>endless5ilver的小店<br/>/银饰/金银币/唐卡/刀剑/古珠<br/>/欢迎选购</div>',
 
   SIMPLE_AUTHOR_LINK: process.env.NEXT_PUBLIC_AUTHOR_LINK || '#',
 
